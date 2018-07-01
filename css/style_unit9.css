@@ -1,0 +1,874 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,600');
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans|Quicksand');*/
+/*<link href="https://fonts.googleapis.com/css?family=Poppins:600" rel="stylesheet">*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+}
+img  {
+	display: block;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	font-size: 15px;
+	font-weight:900;
+}
+h3 {
+	position: relative;
+}
+p{
+	font-weight: 300;
+}
+.clearfix:after {
+	display: block;
+	content:"";
+	clear:both;
+}
+.header {
+	position: fixed;
+	z-index:9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	/*background-color: dodgerblue; */
+	transition: 0.3s;
+}
+
+.scrolled {
+  background-color: dodgerblue;
+  transition: 0.3s;
+  }
+
+.header: after {
+content: "";
+display: block;
+width: 50%;
+height: 100%;
+position: absolute;
+z-index: 1;
+top: 0;
+right: 0; 
+/*background-color:#fff;*/
+}
+.headerleft { 
+	float: left;
+	width: 40%;
+	position: relative;
+	z-index: 2;
+ }
+.logo {
+	float: left;
+	width: 100px;
+	height: 100px;
+	background: transparent url(../images/logo_trans2.png) center center;
+	background-size: 120% auto;
+}
+.headerleft h2 {
+	float: left;
+	margin-top: 30px;
+	color: white;
+}
+.headerright {
+	float: right;
+	width: 50%;
+	position: relative;
+	z-index: 2;
+}
+.headerright a {
+	float: left;
+	color:white;
+	width: 22.5%;
+	display: block;
+	margin-top: 37px;
+	text-align: center;
+	position: relative;
+	right: 240px;
+}
+.hero {
+	width: 100%;
+	/*top: 100px;*/
+	left: 0;
+	position: fixed;
+	z-index: 1;
+	}
+.hero_left {
+	position: relative;
+	float: left;
+	width: 45%;
+	height: 0;
+	padding-bottom: 35.20%;
+	position: relative;
+	
+}
+.hero_text {
+	color: #f7f3f3;
+	position: absolute;
+	top: 40%;
+	left: 60px;
+	max-width: 700px;
+	transform: translateY(-40%,);
+	font-weight: 600;
+		z-index: 2;
+}
+
+.arrow p {
+	font-size:60px;
+	position:absolute;
+	right:50%;
+	bottom: 50%;
+}
+
+/* formatting on this was too far to the left so i changed it
+.hero_text {
+	position: absolute;
+	top: 50%;
+	left: 40px;
+	max-width: 700px;
+	transform: translateY(-50%,);
+	font-weight: 600;}
+*/
+
+
+.hero_text h1 {
+/*	font-size: 2.2em;*/
+	font-size: 4em;
+	letter-spacing: -3px;
+	line-height: 1.2;
+}
+.hero_text h2 {
+	font-weight: 300;
+	font-size: 2em;
+	line-height: 1.3;
+}
+.hero_text h3 {
+	font-size: .6em;
+	color: grey;
+}
+/*.hero_right{
+	float: right;
+	width: 55%;
+}*/
+.selfie_right img {
+	padding-top:100px;
+	float:left;
+	width:38%;
+}
+.selfie_left img {
+
+	float:left;
+	width:38%;
+}
+.selfie_logo img {
+	opacity: 0.2;
+	float: left;
+	width: 40%;
+	position: absolute;
+	left: 70%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+}
+
+.ghost_logo img {
+	opacity: 0.04;
+	float: left;
+	width: 40%;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%, -50%);
+}
+
+.about_text {
+	float: left;
+	display: block;
+	width: 40%;
+	margin-top: 20px;
+	position: absolute;
+	left: 70%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 1.3em;
+}
+
+.about_text h1{
+
+	font-size:1.7em;
+	letter-spacing: 10px;
+	
+
+}
+
+.container {
+	padding-top: 55%;
+	position: relative;
+	width: 100%;
+	height:0;
+}
+
+.portfolio {
+	width: 100%;
+	background-color:#4659c2;
+	position: relative;
+	z-index: 3;
+}
+
+.portfolio2 {
+	width: 100%;
+	/*background-color:#f0f0f0;*/
+	background-color: #40525c;
+	position: relative;
+	z-index: 3;
+}
+
+.portfolio p {
+	text-align: center;
+	font-size: 1.75em;
+}
+.figoverlap{
+	width:100%;
+	background-color: #f0f0f0;
+}
+.figure1, .figure2{
+	width: 53%;
+	position: relative;
+}
+.figure2{
+	float: right;
+}
+.figure1:hover .figcaption1 {
+	opacity: 1;
+}
+.figure2:hover .figcaption2 {
+	opacity: 1;
+}
+
+.backdrop1 {
+	width: 100%;
+}
+
+.thumb1 {
+	position:absolute;
+	top: 20%;
+	left:5%;
+	/*width: 75%;*/
+	width:40%;
+	z-index: 1
+}
+
+.description1 {
+	width:35%;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top:40%;
+	right:10%;
+}
+.description1 h1 {
+	font-size: 3em;
+}
+
+
+.description2 {
+	width:35%;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top:40%;
+	left:10%;
+}
+.description2 h1 {
+	font-size: 3em;
+}
+
+
+
+
+
+.thumb1a {
+	position:absolute;
+	top:20%;
+	right:5%;
+	z-index:1;
+	width: 40%;
+}
+
+
+
+.figcaption1 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 75%;
+	background-color: #dddddd;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	text-align: center;
+	}
+.figcaption2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 75%;
+	background-color: #dddddd;
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+	text-align: center;
+}
+.figcaptiontext {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+.thumb2 {
+	float: left;
+	width: 75%;
+}
+
+.footerline{
+	display: block;
+	width: 100%;
+	margin: 30px auto;
+	max-width: 100px;
+	height: 2px;
+	background-color: black;
+	border: none;
+}
+
+.footer {
+background-color: white;
+position: relative;
+padding-bottom:20px;
+padding-top: 20px;
+	z-index: 3;
+}
+.container2{
+	text-align: center;
+	background-color: white;
+	position: relative;
+	z-index: 3;
+}
+
+.closepanel {
+	
+	width: 100%;
+	height: 250px;
+	background-color:#060b20;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	font-size: 1.75em;
+	color: white;
+	padding-top:100px;
+}
+
+.closepanel a  {
+/*	font-size: 2.2em;*/
+	color:#e8e8e8;
+	font-size: 1.5em;
+	letter-spacing: -2px;
+}
+.closepanel h2 {
+	font-weight: 300;
+	font-size: .75em;
+	border-width: 3px;
+}
+
+
+.closepanel2 {
+	
+	width: 100%;
+	height: 175px;
+	background-color:white;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	font-size: 1.75em;
+	padding-top:50px;
+}
+
+
+.closepanel2 h1  {
+/*	font-size: 2.2em;*/
+	font-size: 1.5em;
+	letter-spacing: -2px;
+}
+
+.closepanel3{
+
+	width: 100%;
+	height: 300px;
+	background-color:#060b20;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	font-size: 1.75em;
+	color: white;
+	padding-top:20px;
+}
+
+.closepanel4 {
+
+	width: 100%;
+	height: 750px;
+	background-color:#e7e8fe;
+	position: relative;
+	z-index: 3;
+	text-align: center;
+	font-size: 1.75em;
+	color: #060b20;
+	padding-top:20px;
+}
+
+.closepanel4 img {
+	width:20%;
+	margin:auto;
+}
+
+.skills1 {
+	float: left;
+	width: 33.33%;
+	
+/*	padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
+
+
+.skills2 {
+	float: left;
+	width: 33.33%;
+	
+	/*padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
+
+
+
+.skills3 {
+	float: left;
+	width: 33.33%;
+	
+/*	padding-left: 3.75%;
+	padding-right:3.75%;
+}*/
+	
+}
+
+
+.button {
+	border-radius: 12px;
+}
+
+
+
+.button {
+    background-color: #647adb; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+	
+.row {
+	margin-left:10%;
+	margin-right:10%;
+
+}
+
+.footernav a {
+	display: block;
+	float: left;
+	width: 25%;
+	position: relative;
+	z-index:99;
+	background-color: white;
+}
+.spacer {
+	width: 50%;
+}
+.placeholder a {
+	display: block;
+	width: 100px;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: white;
+	
+}
+.footernav {
+	
+	text-align: center;
+	background-color: white;
+
+}
+.socialmedia{
+	width: 250px;
+	margin: 0 auto;
+	background-color: white;
+	
+}
+.socialmedia a {
+	display: block;
+	float: left;
+	width: 40px;
+	margin-left: 10px;
+	background-color: white;
+}
+.bottomnav {
+	background-color: white;
+	position: relative;
+	z-index: 2;
+}
+.copyright {
+	position: relative;
+	z-index: 3;
+	background-color: white;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+.copyright p {
+	text-align: center;
+	background-color: white;
+}
+
+.contactpic{
+	/*width:100%;*/
+	/*opacity:.8;*/
+	
+}
+
+
+/** /Top right text */
+.mail {
+    position: absolute;
+    top: 240px;
+    right: 180px;
+}
+
+
+.contacttext {
+	color: white;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+    font-size:4em;
+}
+
+.contact_1 {
+	font-size: .5em;
+}
+
+.contact_2 {
+	font-size: .5em;
+}
+
+.cta {
+	background: dodgerblue;
+	font-size: .9em;
+	color: #fff;
+	display:inline-block;
+	font-weight: 700;
+	/*margin-top: 2em;*/
+	padding:.6em 1.6em;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: .5em;
+}
+
+.cta:hover {
+	background-color: #99CCFF;
+	color: #FFF;
+}
+
+#resume {
+	margin-top:1em;
+}
+
+#button{
+	margin-top:1em;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1590px) {
+
+.mail {
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+
+
+.contacttext {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-size:2em;
+    color:darkslateblue;
+}
+.footer{
+	padding-top:0;
+}
+}
+
+@media only screen and (max-width: 1050px) {
+.header {
+	background-color: #dddddd;
+}
+.burger-nav {
+	display: block;
+	float: right;
+	height: 30px;
+	width: 30px;
+	background: transparent url(../images/hamburger_black.png) center center no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 25px;
+	z-index: 99;
+}
+.headerleft h2 {
+	font-size: 1em;
+	position: fixed;
+	left: 90px;
+}
+.headerright {
+	display: none;
+	overflow: hidden;
+	background: black;
+	opacity:.85;
+	border-radius: 12px;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: none;
+	height: calc(77vh - 100px); /*100vh did not like full screen, added border radius and margins*/
+	position: fixed;
+	bottom: 0;
+	top: 100px;
+}
+
+/*.headerright.open {
+	height: auto;
+}*/
+
+.headerright a {
+	width: 100%;
+	margin: auto;
+	color: #d9d9d9;
+	padding: 10px;
+	border-bottom: 1px solid #404040;
+	display: block;
+	position: relative;
+   float: none; 
+	top: 0;
+	left: 0;
+	transform: translate(0);
+}
+/*
+.container {
+	padding-top: 92vh; 52 66 65,43
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+	z-index: 3;
+	width: 100%;
+}*/
+.hero_text h1 {
+/*	font-size: 2.2em;*/
+	font-size: 2.2em;
+	color:darkslateblue;
+}
+.hero_text h2 {
+	font-size: 1.5em;
+	color:darkslateblue;
+}
+.portfolio p {
+	font-weight: 400;
+	font-size: 1.2em;
+}
+.thumb1 {
+	float: none;
+	width: auto;
+}
+.figure2 {
+	display: flex;
+	flex-direction: column;
+}
+.thumb2 {
+	float: none;
+	width: auto;
+	order: 1;
+}
+  .figcaption2{
+    order: 2;
+  }
+.figure1, .figure2 {
+	width: 100%;
+}
+.figcaption1, .figcaption2 {
+	position: relative;
+	width: 100%;
+	height: auto;
+	opacity:1;
+}
+.figcaptiontext {
+	position: relative;
+	top: 0;
+	left: 0;
+	transform: translate(0, 0);
+	}
+
+
+}
+@media only screen and (max-width: 768px) {
+.header {
+	background-color: #dddddd;
+}
+.burger-nav {
+	display: block;
+	float: right;
+	height: 30px;
+	width: 30px;
+	background: transparent url(../images/hamburger_black.png) center center no-repeat;
+	background-size: 100% auto;
+	position: relative;
+	margin-top: 20px;
+	margin-right: 25px;
+	z-index: 99;
+}
+.headerleft h2 {
+	font-size: 1em;
+	position: fixed;
+	left: 90px;
+}
+.headerright {
+	display:none;
+	overflow: hidden;
+	/*background: #505050;*/
+	background: black;
+	opacity:.85;
+}
+.headerright.open {
+	height: auto;
+}
+.hero_left {
+	display: none;
+}
+.hero_right {
+	width: 100%;
+	float: none;
+	/*opacity: 0.8;*/
+}
+.container {
+	padding-top: 100%;
+}
+.portfolio p {
+	font-weight: 400;
+}
+.thumb1 {
+	float: none;
+	width:auto;
+}
+.thumb2 {
+	float: none;
+	width: auto;
+}
+.figure1, .figure2 {
+	width: 100%;
+}
+.figcaption1, .figcaption2 {
+	position: relative;
+	width: 100%;
+	height: auto;
+	opacity: 1;
+}
+.figcaptiontext {
+	position: relative;
+	top: 0;
+	left: 0;
+	transform: translate(0, 0);
+	}
+.selfie_right img {
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.selfie_left img {
+	width:38%;
+}
+.selfie_logo img {
+	display: none;
+	/*opacity: 0.06;
+	width: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}*/
+}
+.about_text {
+	float: none;
+	display: block;
+	width: 80%;
+	position: relative;
+	left: 0;
+	top: 0;
+	padding-left: 40px;
+	transform: none;
+	margin-bottom:20px;
+	}
+
+
+}
+@media screen and (max-width: 568px) {
+    .hero_text {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+    padding: 20px;
+  }
+    /* the hero has changed thus the aspect ratio or proportion of the container needs to be adjusted. */
+  /*.container {
+		padding-top: 136.8%;
+	}*/
+  /* ISSUE! */
+  /* Now that .hero_text is stacked under the hero image the text wraps thus changing the total height of the header + hero. We have 2 options: remove the parallax and let projects stack naturally under the hero or use Js to calculate the height of the header + hero and apply that height to .container when the page is loaded or when the page is resizes. lets try the latter, see the HTML for the Js */
+  /* update .container to have no padding - we will calculate the height in Js */
+  .container {
+    padding-top: 0%;
+	}
+}
+@media only screen and (max-width: 421px) {
+.header {
+	background-color: white;
+}
+.headerleft h2 {
+	float: left;
+	margin-top: 30px;
+	font-size: 1.0em;*/
+	/*position: fixed;
+	right: 90px;}*/
+  }
+  .p1 {
+	 display: none;
+
+}
+}
