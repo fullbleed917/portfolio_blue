@@ -762,8 +762,8 @@ padding-top: 20px;
 	display:none;
 	overflow: hidden;
 	/*background: #505050;*/
-	background: black;
-	opacity:.85;
+	background: dodgerblue;/*black
+	opacity:.85;*/
 }
 .headerright.open {
 	height: auto;
