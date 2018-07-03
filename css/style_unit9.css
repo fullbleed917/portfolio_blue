@@ -267,13 +267,17 @@ right: 0;
 	color: white;
 	text-align: left;
 	position: absolute;
-	top:40%;
+	top:27%;
 	right:10%;
 }
 .description1 h1 {
 	font-size: 3em;
 }
 
+.description1 p {
+	font-size: 1.25em;
+	text-align:left;
+}
 
 .description2 {
 	width:35%;
