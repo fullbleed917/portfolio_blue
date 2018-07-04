@@ -638,7 +638,7 @@ padding-top: 20px;
 
 @media only screen and (max-width: 1050px) {
 .header {
-	background-color: #647adb; /*blue*/
+	background-color: dodgerblue ; /*#647adb blue*/
 }
 .burger-nav {
 	display: block;
@@ -759,7 +759,7 @@ padding-top: 20px;
 
 @media only screen and (max-width: 768px) {
 .header {
-	background-color: #647adb;
+	background-color: dodgerblue; /* #647adb blue*/
 }
 .burger-nav {
 	display: block;
@@ -904,7 +904,7 @@ padding-top: 20px;
 }
 @media only screen and (max-width: 421px) {
 .header {
-	background-color: #647adb;
+	background-color: dodgerblue ; /*blue #647adb*/
 }
 .headerleft h2 {
 	float: left;
