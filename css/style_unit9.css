@@ -231,23 +231,6 @@ right: 0;
 	text-align: center;
 	font-size: 1.75em;
 }
-/*.figoverlap{
-	width:100%;
-	background-color: #f0f0f0;
-}*/
-/*.figure1, .figure2{
-	width: 53%;
-	position: relative;
-}
-.figure2{
-	float: right;
-}
-.figure1:hover .figcaption1 {
-	opacity: 1;
-}
-.figure2:hover .figcaption2 {
-	opacity: 1;
-}*/
 
 .backdrop1 {
 	width: 100%;
@@ -301,35 +284,6 @@ right: 0;
 }
 
 
-/*
-.figcaption1 {
-	position: absolute;
-	top: 0;
-	right: 0;
-	height: 100%;
-	width: 75%;
-	background-color: #dddddd;
-	opacity: 0;
-	transition: opacity 1s ease-in-out;
-	text-align: center;
-	}
-.figcaption2 {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 75%;
-	background-color: #dddddd;
-	opacity: 0;
-	transition: opacity 1s ease-in-out;
-	text-align: center;
-}
-.figcaptiontext {
-	position: absolute;
-	top: 50%;
-	left:50%;
-	transform: translate(-50%, -50%);*/
-}
 .thumb2 {
 	float: left;
 	width: 75%;
@@ -725,24 +679,11 @@ padding-top: 20px;
 	width: auto;
 	order: 1;
 }
-  .figcaption2{
-    order: 2;
-  }
+/*
 .figure1, .figure2 {
 	width: 100%;
-}
-.figcaption1, .figcaption2 {
-	position: relative;
-	width: 100%;
-	height: auto;
-	opacity:1;
-}
-.figcaptiontext {
-	position: relative;
-	top: 0;
-	left: 0;
-	transform: translate(0, 0);
-	}
+}*/
+
 .hero_right {
 	width: 100%;
 	float: none;
@@ -810,21 +751,10 @@ padding-top: 20px;
 	float: none;
 	width: auto;
 }
-.figure1, .figure2 {
+/*.figure1, .figure2 {
 	width: 100%;
-}
-.figcaption1, .figcaption2 {
-	position: relative;
-	width: 100%;
-	height: auto;
-	opacity: 1;
-}
-.figcaptiontext {
-	position: relative;
-	top: 0;
-	left: 0;
-	transform: translate(0, 0);
-	}
+}*/
+
 .selfie_right img {
 	width: 100%;
 	padding-left: 10%;
@@ -869,6 +799,31 @@ padding-top: 20px;
 	padding-top:100px;
 	
 }
+.description1{
+	font-size:12px;
+	text-align: center;
+	width:auto;
+	top:6%;
+	right:20%;
+}
+
+.description1a{
+	display:none;
+}
+
+.thumb1{
+	width:auto;
+	position:absolute;
+left:20%;
+top:30%;
+}
+
+.backdrop1{
+	width:100%;
+	padding-bottom: 175px;
+}
+
+
 }
 @media screen and (max-width: 568px) {
     .hero_text {
@@ -941,19 +896,20 @@ padding-top: 20px;
 }
 	
 }
-.description1{
+/*.description1{
 	width:75%;
 	text-align:center;
 	font-size:11px;
 	top:35%;
 
-}
-
+}*/
+/*
 #description-a h1 h2 {
 	display:none;
-}
+}*/
 
 .thumb1 img{
+
 	top:3%;
 	width:80%;
 	margin-left:20px;
