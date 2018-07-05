@@ -831,7 +831,7 @@ padding-top: 20px;
 
 .backdrop1{
 	width:100%;
-	padding-bottom: 240px;
+	padding-bottom: 340px;
 }
 
 
@@ -850,7 +850,7 @@ padding-top: 20px;
 
 .backdrop2{
 	width:100%;
-	padding-bottom: 40px;
+	padding-bottom: 240px;
 }
 
 
@@ -938,6 +938,20 @@ padding-top: 20px;
 	right:3%;
 }
 
+
+	
+.thumb1a {
+
+	top:46%;
+	width:auto;
+	left:3%;
+	right:3%;
+}
+
+
+
+
+
 .portfolio2{
 	padding-bottom:200px;
 }
@@ -962,5 +976,19 @@ padding-top: 20px;
     left: 3%;
 }
 
+.backdrop1{
+	width:100%;
+	padding-bottom: 240px;
+}
 
+
+
+.description2 {
+    font-size: 12px;
+    text-align: center;
+    width: auto;
+    top: 3%;
+    right: 3%;
+    left: 3%;
+}
 }
