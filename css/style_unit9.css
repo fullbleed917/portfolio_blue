@@ -746,11 +746,33 @@ padding-top: 20px;
 .thumb1 {
 	float: none;
 	width:auto;
+	position:absolute;
+	left:20%;
+	top:33%;
 }
+
+
+
+.thumb1a {
+	position:absolute;
+	top:29%;
+	right:20%;
+	z-index:1;
+	width: auto;
+}
+
 .thumb2 {
 	float: none;
 	width: auto;
+
+
 }
+
+
+
+
+
+
 /*.figure1, .figure2 {
 	width: 100%;
 }*/
@@ -799,6 +821,7 @@ padding-top: 20px;
 	padding-top:100px;
 	
 }
+
 .description1{
 	/*font-size:12px;*/
 	text-align: center;
@@ -811,17 +834,34 @@ padding-top: 20px;
 	display:none;
 }
 
-.thumb1{
-	width:auto;
-	position:absolute;
-left:20%;
-top:33%;
-}
 
 .backdrop1{
 	width:100%;
-	padding-bottom: 190px;
+	padding-bottom: 240px;
 }
+
+
+.description2{
+	/*font-size:12px;*/
+	text-align: center;
+	width:auto;
+	top:3%;
+	right:14%;
+}
+
+.description2a{
+	display:none;
+}
+
+
+.backdrop2{
+	width:100%;
+	padding-bottom: 40px;
+}
+
+
+
+
 
 
 }
