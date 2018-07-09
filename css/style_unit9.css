@@ -794,8 +794,8 @@ padding-top: 20px;
 }*/
 
 .selfie_right img {
-	width: 100%;
-	padding-left: 10%;
+	width: 60%;
+	padding-left: 5%;
 	padding-right: 10%;
 }
 .selfie_left img {
@@ -962,24 +962,39 @@ padding-top: 20px;
 	height:210px;
 	
 }
-
-
-
-
-
+.closepanel4{
+	height:1300px;
+}
 
 .skills1 {
-	
-	width: 33.33%;
-	
-/*	padding-left: 3.75%;
-	padding-right:3.75%;*/
+	float:none;	
+	width: 100%;
+	font-size:.7em;
+	margin:0;
+
 }
 
 .skills1 h2{
+	font-size:1.0em;
+}
 
+
+.skills2 {
+	float:none;	
+	width: 100%;
+	font-size:.7em;
+	margin:0;
 
 }
+
+.skills3 {
+	float:none;	
+	width: 100%;
+	font-size:.7em;
+	margin:0;
+
+}
+
 }
 
 
