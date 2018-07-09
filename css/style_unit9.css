@@ -258,6 +258,19 @@ right: 0;
 }
 
 
+.description1a {
+	width:35%;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top:50%;
+	right:10%;
+}
+
+.description1a h1 {
+	font-size: 3em;
+}
+
 
 .description2 {
 	width:35%;
@@ -267,12 +280,25 @@ right: 0;
 	top:27%;
 	left:10%;
 }
+
 .description2 h1 {
 	font-size: 3em;
 }
 
 
+.description2a {
+	width:35%;
+	color: white;
+	text-align: left;
+	position: absolute;
+	top:50%;
+	left:10%;
+}
 
+
+.description2a h1 {
+	font-size: 3em;
+}
 
 
 .thumb1a {
@@ -472,6 +498,7 @@ padding-top: 20px;
 	width: 250px;
 	margin: 0 auto;
 	background-color: white;
+	padding-top:5%;
 	
 }
 .socialmedia a {
@@ -587,6 +614,10 @@ padding-top: 20px;
 	
 }
 
+
+.description1a {
+	display: none;
+}
 
 }
 
@@ -747,7 +778,7 @@ padding-top: 20px;
 	float: none;
 	width:auto;
 	position:absolute;
-	left:20%;
+	left:17%;
 	top:33%;
 }
 
@@ -821,6 +852,7 @@ padding-top: 20px;
 	text-align: center;
 	width:auto;
 	top:3%;
+	left:14%;
 	right:14%;
 }
 
@@ -890,7 +922,17 @@ padding-top: 20px;
 	padding-top:100px;
 	
 }
+
+.closepanel3{
+
+	font-size: 1.0em;
+	height:210px;
+	
 }
+
+}
+
+
 @media only screen and (max-width: 421px) {
 .header {
 	background-color: dodgerblue ; /*blue #647adb*/
