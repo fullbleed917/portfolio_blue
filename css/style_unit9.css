@@ -125,16 +125,6 @@ right: 0;
 	bottom: 50%;
 }
 
-/* formatting on this was too far to the left so i changed it
-.hero_text {
-	position: absolute;
-	top: 50%;
-	left: 40px;
-	max-width: 700px;
-	transform: translateY(-50%,);
-	font-weight: 600;}
-*/
-
 
 .hero_text h1 {
 /*	font-size: 2.2em;*/
@@ -422,6 +412,7 @@ padding-top: 20px;
 /*	padding-left: 3.75%;
 	padding-right:3.75%;*/
 }
+
 
 
 .skills2 {
@@ -887,8 +878,50 @@ padding-top: 20px;
 
 
 
+.skills1 {
+	float: left;
+	width: 28%;
+	font-size:.50em;
+	padding:12px;
+	margin-left:50px;
+/*	padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
 
 
+
+
+.skills1 h2{
+
+}
+
+
+
+
+.skills2 {
+	float: left;
+	width: 28%;
+	font-size:.50em;
+	padding:12px;
+	
+/*	padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
+
+
+.skills3 {
+	float: left;
+	width: 28%;
+	font-size:.50em;
+	padding:12px;
+	
+/*	padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
+
+.closepanel4 {
+	height: 500px;
+}
 
 }
 @media screen and (max-width: 568px) {
@@ -930,6 +963,23 @@ padding-top: 20px;
 	
 }
 
+
+
+
+
+
+.skills1 {
+	
+	width: 33.33%;
+	
+/*	padding-left: 3.75%;
+	padding-right:3.75%;*/
+}
+
+.skills1 h2{
+
+
+}
 }
 
 
