@@ -41,10 +41,25 @@ p{
 	transition: 0.3s;
 }
 
+.header-dreamz {
+	position: fixed;
+	z-index:9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #e32525; 
+	transition: 0.3s;
+}
+
+
+
 .scrolled {
   background-color: dodgerblue;
   transition: 0.3s;
   }
+
+
+
 
 .header: after {
 content: "";
@@ -654,18 +669,37 @@ padding-top: 20px;
 }
 
 
-.project-background img{
+.designb-wrapper{
+	display:block;
+	background-color:#525659;/*grey;
+	height:auto;*/
+}
+
+.project-background {
+	width:75%;
+	margin:auto;
+	padding-top:100px;
+	/*padding-bottom:10px;*/
 	/*background-color: #020202;*/
-	padding-bottom:600px;
+	/*padding-bottom:600px;*/
 	
 }
 
+.tiles img {
+	width:75%;
+	margin:auto;
+	margin-top:20px;
+	margin:bottom:20px;
+	-webkit-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+}
 
 
 .intro-dreamz{
 	
 	position:absolute;
-	top: 50%;
+	top: 15%;
   	left: 50%;
     transform: translate(-50%, -50%);
   	color:white;
@@ -769,13 +803,16 @@ width:55px;
 .proposal{
 	display:block;
 	margin:auto;
-	width:60%;
+	/*width:60%;*/
 	text-align:center;
 	color:white;
 	padding-bottom:200px;
 }
 
-
+.thanks img {
+	width:20%;
+	margin:auto;
+}
 
 }
 
@@ -812,6 +849,26 @@ width:55px;
 .description1a {
 	display: none;
 }
+
+
+.project-background {
+	width:100%;
+	margin:auto;
+	padding-top:100px;
+	
+}
+
+.tiles img {
+	width:95%;
+	margin:auto;
+	margin-top:20px;
+	margin:bottom:20px;
+	
+}
+
+
+
+
 
 }
 
@@ -934,6 +991,25 @@ width:55px;
     left: 20px;
     font-size:2em;
     color:darkslateblue;
+}
+
+
+
+
+
+.project-background {
+	width:100%;
+	margin:auto;
+	padding-top:100px;
+	
+}
+
+.tiles img {
+	width:95%;
+	margin:auto;
+	margin-top:20px;
+	margin:bottom:20px;
+	
 }
 
 }
@@ -1166,6 +1242,24 @@ width:55px;
 .closepanel4 {
 	height: 500px;
 }
+
+
+.project-background {
+	width:100%;
+	margin:auto;
+	padding-top:100px;
+	
+}
+
+.tiles img {
+	width:95%;
+	margin:auto;
+	margin-top:20px;
+	margin:bottom:20px;
+	
+}
+
+
 
 }
 @media screen and (max-width: 568px) {
