@@ -47,7 +47,7 @@ p{
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color: #ac0404; 
+	background-color: black; /*#ac0404*/
 	transition: 0.3s;
 }
 
@@ -671,12 +671,12 @@ padding-top: 20px;
 
 .designb-wrapper{
 	display:block;
-	background-color:#525659;/*grey;
+	background-color:#ebebeb;/*grey;#525659
 	height:auto;*/
 }
 
 .project-background {
-	width:75%;
+	/*width:75%;*/
 	margin:auto;
 	padding-top:100px;
 	/*padding-bottom:10px;*/
@@ -685,7 +685,7 @@ padding-top: 20px;
 	
 }
 
-.tiles img {
+/*.tiles img {
 	width:75%;
 	margin:auto;
 	margin-top:20px;
@@ -694,7 +694,33 @@ padding-top: 20px;
 -moz-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 }
+*/
 
+.tiles img {
+	width:77%;
+	margin:auto;
+/*	margin-top:20px;
+	margin:bottom:20px;*/
+	/*-webkit-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);*/
+}
+
+.tiles h1 {
+	color: black;
+	text-align:center;
+	padding-top:50px;
+	font-size: 3em;
+}
+
+.tiles p {
+	color:black;
+	text-align: center;
+	
+	margin-bottom:50px;
+	font-size:1.5em;
+
+}
 
 .intro-dreamz{
 	
@@ -717,7 +743,7 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 	column-gap:120px;
 
 }
-
+/*
 .intro-box-dreamz{
 	background-color:dodgerblue;
 	width:700px;
@@ -730,7 +756,7 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
   	text-align:center;
   	padding-top:30px;
   	margin-top:40px;
-}
+}*/
 
 .scroll-arrow{
 position:absolute;
@@ -803,11 +829,18 @@ width:55px;
 .proposal{
 	display:block;
 	margin:auto;
-	/*width:60%;*/
+	width:58%;
 	text-align:center;
 	color:white;
 	padding-bottom:200px;
 }
+
+
+.proposal1{
+	width:75%;
+	margin:auto;
+}
+
 
 .thanks img {
 	width:30%;
@@ -858,13 +891,13 @@ width:55px;
 	
 }
 
-.tiles img {
+/*.tiles img {
 	width:95%;
 	margin:auto;
 	margin-top:20px;
 	margin:bottom:20px;
 	
-}
+}*/
 
 
 
@@ -1003,14 +1036,14 @@ width:55px;
 	padding-top:100px;
 	
 }
-
+/*
 .tiles img {
 	width:95%;
 	margin:auto;
 	margin-top:20px;
 	margin:bottom:20px;
 	
-}
+}*/
 
 }
 
@@ -1251,13 +1284,24 @@ width:55px;
 	
 }
 
-.tiles img {
+/*.tiles img {
 	width:95%;
 	margin:auto;
 	margin-top:20px;
 	margin:bottom:20px;
 	
+}*/
+
+
+.proposal{
+	width:80%;
 }
+
+
+.proposal1{
+	width:100%;
+}
+
 
 
 
