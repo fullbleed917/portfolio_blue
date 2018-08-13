@@ -706,6 +706,27 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);*/
 }
 
+
+
+
+.process_tiles img {
+	position:relative;
+	top:100px;
+	width:40%;
+	margin:auto;
+	/*margin-top:280px;*/
+	 margin-bottom:20px;
+	-webkit-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+}
+
+
+.process_tiles1 img {
+	box-shadow: none;
+
+}
+
 .tiles h1 {
 	color: black;
 	text-align:center;
@@ -728,7 +749,7 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);*/
 	top: 15%;
   	left: 50%;
     transform: translate(-50%, -50%);
-  	color:white;
+  	color:black;
   	text-align:center;
   	padding-top:30px;
   }
@@ -743,20 +764,28 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);*/
 	column-gap:120px;
 
 }
-/*
+
 .intro-box-dreamz{
-	background-color:dodgerblue;
+	/*background-color:dodgerblue;*/
 	width:700px;
-	height:200px;
+	height:150px;
 	position:absolute;
-	top: 70%;
+	top: 24%;
   	left: 50%;
     transform: translate(-50%, -50%);
-  	color:white;
+  	color:black;
   	text-align:center;
   	padding-top:30px;
   	margin-top:40px;
-}*/
+  	font-style:italic;
+
+}
+
+.intro-box-dreamz h2{
+	margin-bottom:20px;
+	font-style:italic;
+
+}
 
 .scroll-arrow{
 position:absolute;
@@ -766,7 +795,55 @@ width:55px;
 
 }
 
+.discovery{
+	position:relative;
+	top:160px;
+	text-align:center;
+	
+}
 
+
+.discovery h1{
+	
+	margin-top:50px;
+}
+
+.discovery p{
+	font-size:1.5em;
+	position:relative;
+	text-align: center;
+	left: 50%;
+	width:50%;
+	margin:30px;
+    transform: translate(-50%, -50%);
+}
+
+.exploration {
+	position:relative;
+	top:400px;
+	text-align: center;
+	left: 50%;
+	width:50%;
+	margin:30px;
+    transform: translate(-50%, -50%);
+
+}
+
+
+.exploration_tiles img{
+position:relative;
+	top:150px;
+	width:40%;
+	margin:auto;
+	/*margin-top:280px;*/
+	margin-bottom:20px;
+	-webkit-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+-moz-box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
+
+
+
+}
 .title-problem{
 	display:block;
 	position:absolute;
@@ -841,10 +918,21 @@ width:55px;
 	margin:auto;
 }
 
+.proposal1 h1{
+	text-align:center;
+}
 
 .thanks img {
 	width:30%;
 	margin:auto;
+}
+
+
+.process-thanks img {
+	width:5%;
+	margin:auto;
+	
+	top:600px;
 }
 
 }
