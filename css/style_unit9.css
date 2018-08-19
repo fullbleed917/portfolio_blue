@@ -1442,7 +1442,14 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 	width:100%;
 }
 
+.project-title img{
+	height:220px;
+}
 
+.designb-wrapper h1{
+	font-size:1.5em;
+	margin-top:150px;
+}
 
 
 }
