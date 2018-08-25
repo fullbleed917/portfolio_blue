@@ -249,6 +249,13 @@ right: 0;
 	width: 100%;
 }
 
+
+.backdrop2{
+	width:100%;
+	height:900px;
+	/*padding-bottom: 350px;*/
+}
+
 .thumb1 {
 	position:absolute;
 	top: 20%;
@@ -410,7 +417,7 @@ padding-top: 20px;
 .closepanel {
 	
 	width: 100%;
-	height: 500px;
+	height: 150px;
 	background-color:#060b20;
 	position: relative;
 	z-index: 3;
