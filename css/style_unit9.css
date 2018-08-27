@@ -1075,23 +1075,26 @@ box-shadow: 7px 6px 31px 0px rgba(0,0,0,0.43);
 }
 
 
-}
 
-}
 
 
 
 
 
 @media only screen and (max-width: 700px) {
-    .responsive {
+    .gallery {
         width: 49.99999%;
         margin: 6px 0;
-    }
+       }
+
+       #projects{
+       	margin-left:0;
+       	padding:0;
+       }
 }
 
 @media only screen and (max-width: 500px) {
-    .responsive {
+    .gallery {
         width: 100%;
     }
 }
