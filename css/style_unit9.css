@@ -133,6 +133,24 @@
 				z-index: 2;
 		}
 
+
+		.hero_text {
+     position: absolute;
+     -webkit-animation-name: text-fade;  /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+     animation-name: text-fade;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+     }
+
+		 @keyframes text-fade {
+		 from {
+			 opacity: 0; top: -10%;}
+			 to {opacity: 1; top: 40%;}
+		 }
+
+
 		.arrow p {
 			font-size:60px;
 			position:absolute;
@@ -179,6 +197,29 @@
 			top: 55%;
 			transform: translate(-50%, -50%);
 		}
+
+
+
+								/* .selfie_logo img {
+						     position: absolute;
+								 float: left;
+						     -webkit-animation-name: text-fade;  /* Safari 4.0 - 8.0 */
+						     /* -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */
+						     /* -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+						     /* animation-name: text-fade;
+						     animation-duration: 3s;
+						     animation-fill-mode: forwards;
+						     } */
+
+								 /* @keyframes text-fade {
+								 from {
+									 opacity: 0; top: -10%;}
+									 to {opacity: 0.2; top: 55%;
+									 } */
+
+
+
+
 
 		.ghost_logo img {
 			opacity: 0.04;
@@ -1088,7 +1129,7 @@
 				.livesite_nav{
 					width:100;
 					hight:50px;
-					background-color:orange;
+					/* background-color:orange; */
 					}
 
 
@@ -1104,8 +1145,8 @@
 			/* padding:.6em 1.6em; */
 			text-decoration: none;
 			text-transform: uppercase;
-			background-color:blue;
-			width:500px;
+			/* background-color:blue; */
+			width:200px;
 			left:50%;
 
 		}
@@ -1121,8 +1162,8 @@
 			position: relative;
 			left:20%;
 			bottom:10%;
-
-			background-color:red;
+			Padding-bottom:40px;
+			/* background-color:red; */
 
 		}
 
@@ -1130,8 +1171,8 @@
 			display: inline-block;
 	  	position: relative;
 			left:65%;
-			background-color:green;
-
+			/* background-color:green; */
+			padding-bottom:40px;
 			bottom:10%;
 
 		}
