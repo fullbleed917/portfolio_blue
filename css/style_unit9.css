@@ -1206,12 +1206,13 @@
 				left:41%;
 
 			}
-
-
+				#projects {
+					width:100%;
+				}
 
 
 		    .gallery {
-		        width: 49.99999%;
+		        /* width: 49.99999%; */
 		        margin: 6px 0;
 		       }
 
@@ -1715,6 +1716,16 @@
 		.designb-wrapper h1{
 			font-size:1.5em;
 			margin-top:150px;
+		}
+
+		.gallery{
+			margin-left:0;
+			padding: 4em;
+			float: none;
+
+		}
+		#projects{
+			height:auto;
 		}
 
 
