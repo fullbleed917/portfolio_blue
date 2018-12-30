@@ -7,7 +7,8 @@
 		box-sizing: border-box;
 		}
 	body {
-		width: 100%;
+		max-width: 100%;
+		overflow-x: hidden;
 		font-family: 'Poppins', sans-serif;
 		font-size: 15px;
 		}
@@ -1220,6 +1221,16 @@
 		       	margin-left:0;
 		       	padding:0;
 		       }
+
+				.prev_projectnav {
+					left: 5%;
+				}
+
+				.next_projectnav{
+					left: 40%;
+				}
+
+
 		}
 
 		@media only screen and (max-width: 500px) {
@@ -1451,6 +1462,16 @@
 			margin:bottom:20px;
 
 		}*/
+
+		#projects{
+			height:auto;
+			margin-left:none;
+			padding:none;
+		}
+
+		.gallery{
+			float:none;
+		}
 
 		}
 
@@ -1720,7 +1741,7 @@
 
 		.gallery{
 			margin-left:0;
-			padding: 4em;
+			padding: 2em;
 			float: none;
 
 		}
@@ -1921,5 +1942,10 @@
 		    right: 3%;
 		    left: 3%;
 		}
+
+		.next_projectnav{
+			left: 43%;
+		}
+
 
 		}
