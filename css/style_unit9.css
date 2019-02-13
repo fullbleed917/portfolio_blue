@@ -327,7 +327,7 @@
 			color: white;
 			text-align: left;
 			position: absolute;
-			top:27%;
+			top:23%;
 			right:10%;
 		}
 
@@ -340,7 +340,7 @@
 			color: white;
 			text-align: left;
 			position: absolute;
-			top:50%;
+			top:46%;
 			right:10%;
 		}
 
@@ -2165,7 +2165,7 @@
 		    font-size: 12px;
 		    text-align: center;
 		    width: auto;
-		    top: 3%;
+		    top: 2%;
 		    right: 3%;
 		    left: 3%;
 		}
