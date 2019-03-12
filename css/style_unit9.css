@@ -579,6 +579,19 @@
 			/* background-color:yellow; */
 		}
 
+		.intro-home-1{
+			display:inline-flex;
+			width:100%;
+			margin-bottom:70px;
+			/* background-color:yellow; */
+		}
+
+
+
+
+
+
+
 		.intro_text1{
 			/* display:flex; */
 			width:60%;
@@ -985,6 +998,36 @@
 			border-radius: .5em;
 		}
 
+
+		.cta-street {
+			 background: white;
+			border: 2px solid #df2424;
+			font-size: .9em;
+			color: black;
+			display:inline-block;
+			font-weight: 700;
+			/*margin-top: 2em;*/
+			padding:.6em 1.6em;
+			text-decoration: none;
+			text-transform: uppercase;
+			border-radius: .5em;
+		}
+
+		.cta-lawyer {
+			 background: white;
+			border: 2px solid dodgerblue;
+			font-size: .9em;
+			color: black;
+			display:inline-block;
+			font-weight: 700;
+			/*margin-top: 2em;*/
+			padding:.6em 1.6em;
+			text-decoration: none;
+			text-transform: uppercase;
+			border-radius: .5em;
+		}
+
+
 		.cta-home {
 			width:150px;
 			 background: white;
@@ -994,7 +1037,8 @@
 			color: black;
 		 position: relative;
 		 left:10%;
-		 bottom:375px;
+		 /* bottom:375px; */
+		 	bottom:300px;
 			font-weight: 700;
 			/*margin-top: 2em;*/
 			 padding:.6em 1.6em;
@@ -1425,6 +1469,28 @@
 		background-color:#ef6f1a;
 	}
 
+	.project-streetDrm-container{
+		width:100%;
+		/* padding-left:25%;
+		padding-right:25%;
+		background-color:#ef6f1a; */
+	}
+
+	.project-streetDrm-container2{
+		width:100%;
+		/* padding-left:25%;
+		padding-right:25%;
+		background-color:#ef6f1a; */
+	}
+
+	.project-law-container2{
+		width:100%;
+		/* padding-left:25%;
+		padding-right:25%;
+		background-color:#ef6f1a; */
+	}
+
+
 		.project-sushi-container2{
 			/* width:100%; */
 
@@ -1553,6 +1619,17 @@
 					padding-right:40%;
 				}
 
+
+								.project-introduction-street3{
+									width:100%;
+									/* height:650px; */
+									padding-top:100px;
+									padding-left:20%;
+									padding-right:40%;
+								}
+
+
+
 				.project-introduction3{
 					width:100%;
 					height:600px;
@@ -1578,6 +1655,13 @@
 			color: #ef6f1a;
 
 		}
+		.project2 h4{
+				color:#e32525;
+		}
+		.project1 h4{
+				color:dodgerblue;
+		}
+
 
 		.project-conclusion{
 			width:100%;
@@ -1641,7 +1725,63 @@
 		  }
 		} */
 
+/* insert css infinate bounce */
 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css);
+
+.fa {
+	width: 60px;
+	display: block;
+	text-align: center;
+	color:#990000;
+	font:normal 45px 'FontAwesome';
+	line-height:60px;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+.fa-angle-double-down:before {content: "\f107";}
+
+.bounce {
+	background-color:green;
+	/* position: absolute;
+	bottom: 30px;
+	left: 50% ; */
+	width: 60px;
+	height: 60px ;
+	/* margin-left:-30px; */
+	border: 2px solid #990000;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+	-ms-border-radius:50%;
+	border-radius:50%;
+	animation: bounce 2s infinite;
+	-webkit-animation: bounce 2s infinite;
+	-moz-animation: bounce 2s infinite;
+	-o-animation: bounce 2s infinite;
+}
+
+@-webkit-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+	40% {-webkit-transform: translateY(-30px);}
+	60% {-webkit-transform: translateY(-15px);}
+}
+
+@-moz-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+	40% {-moz-transform: translateY(-30px);}
+	60% {-moz-transform: translateY(-15px);}
+}
+
+@-o-keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+	40% {-o-transform: translateY(-30px);}
+	60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
 
 
 
