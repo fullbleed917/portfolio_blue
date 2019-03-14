@@ -631,7 +631,8 @@
 		}
 
 		.intro_image1{
-			width:60%;
+			/* width:60%; */
+			width:100%;
 		}
 
 		.intro_image1 img{
@@ -1035,10 +1036,10 @@
 			/* #ef6f1a */
 			font-size: .9em;
 			color: black;
-		 position: relative;
+		 /* position: relative; */
 		 left:10%;
 		 /* bottom:375px; */
-		 	bottom:300px;
+		 	/* bottom:300px; */
 			font-weight: 700;
 			/*margin-top: 2em;*/
 			 padding:.6em 1.6em;
@@ -1475,6 +1476,12 @@
 		padding-right:25%;
 		background-color:#ef6f1a; */
 	}
+
+	.project-spine-container{
+		width:100%;
+	}
+
+
 
 	.project-streetDrm-container2{
 		width:100%;
@@ -2291,6 +2298,22 @@
 		}
 		#projects{
 			height:auto;
+		}
+
+
+		.intro-home-1{
+			display:flex;
+			flex-direction: column-reverse;
+			width:100:
+		}
+
+		.intro_image1{
+			width:100%;
+		}
+
+		.intro_text1{
+			width:80%;
+			padding-left:20%;
 		}
 
 
