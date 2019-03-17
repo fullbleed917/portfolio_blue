@@ -183,12 +183,12 @@
 		 }
 
 
-		.arrow p {
+		/* .arrow p {
 			font-size:60px;
 			position:absolute;
 			right:50%;
 			bottom: 50%;
-		}
+		} */
 
 				/* .hero_text h1 {
 					font-size: 4em;
@@ -292,13 +292,40 @@
 			z-index: 3;
 		}
 
-		.portfolio2 {
+		.portfolio-street {
 			width: 100%;
-	  	background-color: white;
+	  	background-color:white;
+			background: url("/Users/leonredman/Desktop/portfolio_blue/images/wheel2.png") no-repeat;
+			background-size:cover;
 			position: relative;
 			height:775px;
 			z-index: 3;
 		}
+
+
+		.portfolio-knight {
+			width: 100%;
+			background-color:white;
+			background: url("/Users/leonredman/Desktop/portfolio_blue/images/hex_image.jpg") no-repeat;
+			background-size:cover;
+			position: relative;
+			height:775px;
+			z-index: 3;
+		}
+
+		.portfolio-spine {
+			width: 100%;
+			background-color:white;
+			background: url("/Users/leonredman/Desktop/portfolio_blue/images/spine-background.jpg") no-repeat;
+			background-size:cover;
+			position: relative;
+			height:775px;
+			z-index: 3;
+		}
+
+
+
+
 
 		.work {
 			width: 100%;
@@ -1753,10 +1780,10 @@
 .fa-angle-double-down:before {content: "\f107";}
 
 .bounce {
-	background-color:white;
-	/* position: absolute;
-	bottom: 30px;
-	left: 50% ; */
+	/* background-color:white; */
+	position: absolute;
+	bottom: 17vh;
+	left: 50%;
 	width: 60px;
 	height: 60px ;
 	/* margin-left:-30px; */
