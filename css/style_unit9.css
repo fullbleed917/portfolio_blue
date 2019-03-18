@@ -2335,7 +2335,7 @@
 		.intro-home-1{
 			display:flex;
 			flex-direction: column-reverse;
-			width:100;
+			width:100%;
 			margin-bottom:0;
 			padding-bottom: 70px;
 		}
@@ -2452,16 +2452,73 @@
 		    padding-top: 0%;
 			}
 
+		.bounce{
+			display:none;
+		}
 
 			.hero_right {
-			width: 80%;
+			/* width: 80%; */
 			float: none;
 			padding-top:100px;
+
 		}
 
 		.contactpic{
 			padding-top:100px;
 
+		}
+
+
+		.closepanel2 h1{
+			font-size:2em;
+		}
+
+		/* .intro_text1 {
+			width:100%;
+		} */
+
+		.intro_text1 h1{
+			font-size: 1.5em;
+		}
+
+		.intro_text1 P{
+			font-size: .75em;
+		}
+
+		.intro_text2 h1{
+			font-size: 1.5em;
+		}
+
+		.intro_text2 P{
+			font-size: .75em;
+		}
+
+		.thumb1a{
+			top:55%;
+			left:0;
+			right:0;
+
+
+		}
+
+		.thumb1a img{
+			width: 100%;
+			padding-left:5%;
+			padding-right:5%;
+		}
+
+
+		.thumb1{
+			top:55%;
+			left:0;
+			right:0;
+		}
+
+
+		.thumb1 img{
+			width: 100%;
+			padding-left:5%;
+			padding-right:5%;
 		}
 
 		.closepanel3{
@@ -2473,6 +2530,21 @@
 		.closepanel4{
 			height:1300px;
 		}
+
+		.closepanel5 h1{
+			font-size: 1.5em;
+		}
+
+		.closepanel5 p{
+			font-size: .75em;
+		}
+
+		.closepanel5{
+			height:1000px;
+			padding-top: 50px;
+
+		}
+
 
 		.skills1 {
 			float:none;
@@ -2619,4 +2691,4 @@
 			left: 43%; */
 
 
-		} */
+		}
