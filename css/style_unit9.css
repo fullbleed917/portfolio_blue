@@ -2521,6 +2521,26 @@
 			padding-right:5%;
 		}
 
+		.cta{
+			display:none;
+		}
+
+		.description1{
+			top:12%;
+		}
+
+
+		.description3{
+			top:15%;
+			left:10%;
+			right:10%;
+		}
+
+
+		.description3a{
+			display:none;
+		}
+
 		.closepanel3{
 
 			font-size: 1.0em;
