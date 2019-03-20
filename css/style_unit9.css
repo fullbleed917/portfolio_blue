@@ -2234,11 +2234,12 @@
 
 
 		.description3a{
-			text-align: center;
+			display:none;
+			/* text-align: center;
 			width:auto;
 			top:6%;
 			left:14%;
-			right:14%;
+			right:14%; */
 		}
 
 
@@ -2523,6 +2524,7 @@
 
 		.cta{
 			display:none;
+
 		}
 
 		.description1{
