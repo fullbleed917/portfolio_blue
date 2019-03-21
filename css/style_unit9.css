@@ -2433,10 +2433,27 @@
 	}
 
 
+	.intro1{
+		display:flex;
+		flex-direction:column-reverse;
+	}
 
+	.work-intro_text1{
+		width:90%;
+		padding-top:0;
+	}
 
+	.grid-heading h1{
+		left:60px;
+		padding-top:80px;
+		margin-bottom:75px;
+		width:80%;
+		text-align:center;
+	}
 
-
+	.h1{
+		1.75em;
+	}
 
 		}
 		@media screen and (max-width: 568px) {
@@ -2602,6 +2619,20 @@
 			width:100%;
 			left:1%;
 			right:3%;
+		}
+
+	h1 {
+		font-size:1.5em;
+	}
+
+	.grid-heading h1{
+		padding-top:0;
+		margin-bottom:0px;
+		left:30px;
+	}
+
+		.work-intro{
+			height:600px;
 		}
 
 		}
