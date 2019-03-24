@@ -2635,6 +2635,48 @@
 			height:600px;
 		}
 
+
+		.project-introduction1 {
+			padding-left:10%;
+			padding-right:10%;
+		}
+
+		.project-introduction2 {
+			padding-left: 10%;
+			padding-right:10%;
+			padding-top:50px;
+		}
+
+		.project-introduction-street3{
+			padding-top:50px;
+			padding-left:10%;
+			padding-right:10%;
+			height:400px;
+		}
+
+		.project-introduction4{
+			padding-left:10%;
+			padding-right:10%;
+			padding-top:10%;
+			height:280px;
+		}
+
+		.wireframe_zushi{
+			padding-bottom:6%;
+		}
+
+		.proposal{
+			margin-top:0;
+			padding-bottom:10%;
+
+		}
+
+		.project-conclusion {
+			padding-left:10%;
+			padding-right:10%;
+
+		}
+
 		}
 
 /*
