@@ -1592,14 +1592,16 @@
 
 		.project-introduction1{
 			text-align:center;
-			color:white;
+			/* color:white; */
 			/* width:100%; */
 			position:relative;
 			top:-1260px;
 
 		}
 
-
+		.project-introduction1 h4, h3, h1, p {
+			color:white;
+		}
 
 
 
