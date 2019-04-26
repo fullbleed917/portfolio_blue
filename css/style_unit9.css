@@ -1584,6 +1584,7 @@
 		 .project5-intro {
 			 display:flex;
 			 flex-direction: column;
+			 height: 1600px;
 		 }
 
 		.project3-intro img{
@@ -1613,11 +1614,20 @@
 
 		.project-introduction2{
 			width:100%;
-			height:650px;
-			padding-top:100px;
+			height:450px;
+			/* padding-top:100px; */
 			padding-left:20%;
 			padding-right:40%;
 		}
+
+		.project-specs h4 {
+			color: #f47416;
+
+		}
+
+
+
+
 
 
 		.project-introduction-street3{
