@@ -412,14 +412,6 @@
 
 
 
-		.ghost_text{
-			font-size: 8em;
-			color:grey;
-			opacity:.2;
-			position:absolute;
-			 top:-10%;
-			z-index:1;
-		}
 
 		.closepanel2 h1  {
 			 font-size: 3em;
@@ -788,11 +780,6 @@
 		}
 
 
-
-
-
-
-
 		.cta-home {
 			width:150px;
 			background: white;
@@ -857,13 +844,6 @@
 			width:77%;
 			margin:auto;
 		}
-
-
-
-
-
-
-
 
 
 		.process_tiles img {
@@ -1079,16 +1059,7 @@
 		}
 
 
-		.column{
-	  flex: 50%;
-		padding: 0 10px;
-	}
 
-		.column img {
-		 /* width:60%; */
-		margin-top:8px;
-	  verticle-align: middle;
-		}
 
 		.proposal1{
 			width:75%;
@@ -1164,14 +1135,6 @@
 			font-size: 1.75em;
 			/* padding-top:20px; */
 		}
-
-
-
-
-
-
-
-
 
 
 
@@ -1278,15 +1241,6 @@
 		 */
 
 
-
-
-
-
-
-
-
-
-
 		.project-introduction3{
 			width:100%;
 			height:600px;
@@ -1318,58 +1272,6 @@
 			color:dodgerblue;
 		}
 
-		.row3 {
-		  display: -ms-flexbox; /* IE10 */
-		  display: flex;
-		  -ms-flex-wrap: wrap; /* IE10 */
-		  flex-wrap: wrap;
-		  padding: 0 4px;
-		}
-
-		/* Create four equal columns that sits next to each other */
-		.column {
-		  -ms-flex: 25%; /* IE10 */
-		  /* flex: 25%; */
-		  max-width: 33.33%;
-		  padding: 0 4px;
-		}
-
-		.column img {
-		  margin-top: 8px;
-		  vertical-align: middle;
-			width:97%;
-		}
-
-
-		.grid-heading h1{
-			position:relative;
-			/* bottom: -50px; */
-			left: 150px;
-			padding-top:120px;
-			margin-bottom:75px;
-
-		}
-
-		/* Responsive layout - makes a two column-layout instead of four columns */
-		@media screen and (max-width: 800px) {
-		  .column {
-		    /* -ms-flex: 50%;
-		    flex: 50%;
-		    max-width: 50%; */
-				-ms-flex: 100%;
-			 flex: 100%;
-			 max-width: 100%;
-		  }
-		}
-
-		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-		/* @media screen and (max-width: 600px) {
-		  .column {
-		    -ms-flex: 100%;
-		    flex: 100%;
-		    max-width: 100%;
-		  }
-		} */
 
 /* insert css infinate bounce */
 
@@ -1468,6 +1370,74 @@
 				font-size: 1.75em;
 				/* padding-top:20px; */
 			}
+
+			.column{
+			flex: 50%;
+			padding: 0 10px;
+		}
+
+			.column img {
+			 /* width:60%; */
+			margin-top:8px;
+			verticle-align: middle;
+			}
+
+
+					.row3 {
+					  display: -ms-flexbox; /* IE10 */
+					  display: flex;
+					  -ms-flex-wrap: wrap; /* IE10 */
+					  flex-wrap: wrap;
+					  padding: 0 4px;
+					}
+
+					/* Create four equal columns that sits next to each other */
+					.column {
+					  -ms-flex: 25%; /* IE10 */
+					  /* flex: 25%; */
+					  max-width: 33.33%;
+					  padding: 0 4px;
+					}
+
+					.column img {
+					  margin-top: 8px;
+					  vertical-align: middle;
+						width:97%;
+					}
+
+
+					.grid-heading h1{
+						position:relative;
+						/* bottom: -50px; */
+						left: 150px;
+						padding-top:120px;
+						margin-bottom:75px;
+
+					}
+
+					/* Responsive layout - makes a two column-layout instead of four columns */
+					@media screen and (max-width: 800px) {
+					  .column {
+					    /* -ms-flex: 50%;
+					    flex: 50%;
+					    max-width: 50%; */
+							-ms-flex: 100%;
+						 flex: 100%;
+						 max-width: 100%;
+					  }
+					}
+
+					/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+					/* @media screen and (max-width: 600px) {
+					  .column {
+					    -ms-flex: 100%;
+					    flex: 100%;
+					    max-width: 100%;
+					  }
+					} */
+
+
+
 
 
 
@@ -1633,6 +1603,20 @@
 			/* background-color:White; */
 			 width:140%;
 		}
+
+
+			.ghost_text{
+  			font-size: 8em;
+				color:grey;
+				opacity:.2;
+				position:absolute;
+				 top:-10%;
+				z-index:1;
+			}
+
+
+
+
 
 
 
