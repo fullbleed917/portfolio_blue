@@ -1914,10 +1914,14 @@
   ----------------------------------------------------*/
 
 
-					.project-zushi-introduction1{
+
+
+
+
+					.project-introduction-zushi{
 						padding-top:50px;
 						text-align:center;
-						* color:white; */
+						color:white;
 						/* width:100%; */
 						position:relative;
 						top:-1260px;
@@ -1979,6 +1983,16 @@
 	/* ------------------------------------------------
 								AZ Spine - project 5 page
 	------------------------------------------------- */
+
+			.project-introduction-spine{
+				/* padding-top:50px; */
+				text-align:center;
+				/* color:white; */
+				/* width:100%; */
+				position:relative;
+				top:-1230px;
+			}
+
 
 
 			.portfolio-spine {
