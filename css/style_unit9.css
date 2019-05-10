@@ -793,7 +793,7 @@
 		 	/* bottom:300px; */
 			font-weight: 700;
 			/*margin-top: 2em;*/
-			 padding:.6em 1.6em;
+			 padding:.6em 2.4em;
 			 text-decoration: none;
 			 text-transform: uppercase;
 		 	 border-radius: .5em;
@@ -1629,31 +1629,66 @@
 								knight law - project1 page
 	------------------------------------------------------- */
 
-					.project-introduction-knight{
-						padding-top:50px;
-						text-align:center;
-						/* color:white; */
-						/* width:100%; */
-						position:relative;
-						top:-1260px;
+				/* .project1-intro {
+					display:block;
+					height:1300px;
+				} */
 
+
+
+				.project-introduction-knight{
+					padding-top:50px;
+					text-align:center;
+					/* color:white; */
+					/* width:100%; */
+					position:relative;
+					top:-1260px;
+
+				}
+
+				.portfolio-knight {
+					width: 100%;
+					background-color:white;
+					background: url("../images/hex_image.jpg") no-repeat;
+					background-size:cover;
+					position: relative;
+					height:775px;
+					z-index: 3;
+				}
+
+				.project-law-introduction2{
+					/* width:100%; */
+					height:450px;
+					/* padding-top:5%; */
+					padding-left:20%;
+					padding-right:40%;
+					margin-top: -150px;
+
+				}
+
+
+
+
+
+				.cta-lawyer {
+		  		/* background: white; */
+					border: 2px solid dodgerblue;
+					font-size: .9em;
+					color: white;
+					display:inline-block;
+					font-weight: 700;
+					/*margin-top: 2em;*/
+					padding:.6em 1.6em;
+					text-decoration: none;
+					text-transform: uppercase;
+					border-radius: .5em;
 					}
 
-					.portfolio-knight {
-						width: 100%;
-						background-color:white;
-						background: url("../images/hex_image.jpg") no-repeat;
-						background-size:cover;
-						position: relative;
-						height:775px;
-						z-index: 3;
-					}
 
-					.cta-lawyer {
-			  		background: white;
+					.cta-lawyer2 {
+						color:black;
 						border: 2px solid dodgerblue;
 						font-size: .9em;
-						color: black;
 						display:inline-block;
 						font-weight: 700;
 						/*margin-top: 2em;*/
@@ -1661,40 +1696,56 @@
 						text-decoration: none;
 						text-transform: uppercase;
 						border-radius: .5em;
+
+					}
+
+					.project-typography-law-container{
+  					font-family: 'Spectral', serif;
+						color:#b7aaa4;
+						background-color:white;
+						font-size:3em;
+						padding-top:10%;
+						padding-bottom:10%;
+						padding-left:20%;
+						/* width:100%; */
+						/* height:350px; */
 						}
 
 
-						.project-typography-law-container{
-	  					font-family: 'Spectral', serif;
-							color:#b7aaa4;
-							background-color:white;
-							font-size:3em;
-							padding-top:10%;
-							padding-bottom:10%;
-							padding-left:20%;
-							/* width:100%; */
-							/* height:350px; */
-							}
+					.project-law-container2{
+						width:100%;
+						/* padding-left:25%;
+						padding-right:25%;
+						background-color:#ef6f1a; */
+					}
 
-
-								.project-law-container2{
-									width:100%;
-									/* padding-left:25%;
-									padding-right:25%;
-									background-color:#ef6f1a; */
-								}
-
-							.project-law-conclusion{
-								width:100%;
-								/* height:400px; */
-								padding-top:5%;
-								padding-bottom:10%;
-								padding-left:20%;
-								padding-right:40%;
-							}
+				.project-law-conclusion{
+					width:100%;
+					/* height:400px; */
+					padding-top:5%;
+					padding-bottom:10%;
+					padding-left:20%;
+					padding-right:40%;
+				}
 
 
 
+
+				.project-specs-law {
+					column-count:2;
+				}
+
+				.project-specs-law h4 {
+					/* color: #374d8c; */
+				}
+
+				.project-law-before{
+					padding-left: 20%;
+					width:100%;
+					/* padding-top:100px; */
+					padding-left:20%;
+					padding-right:40%;
+				}
 
 
 
@@ -1796,11 +1847,13 @@
 						padding-right:40%;
 
 					}
-					.project-specs {
+					.project-specs-street {
 					column-count:2;
 					}
 
-
+					.project-specs-street h4 {
+						color: #d30605;
+					}
 
 
 					.project-introduction-street3{
@@ -1846,7 +1899,7 @@
 								background-color:#282828;
 							}
 
-							.wireframe1 {
+							.wireframe-street1 {
 								width:60%;
 
 							}
@@ -1876,22 +1929,22 @@
 
 
 
-								.project-streetDrm-container{
-									width:100%;
-									/* padding-left:25%;
-									padding-right:25%;
-									background-color:#ef6f1a; */
-								}
+							.project-streetDrm-container{
+								width:100%;
+								/* padding-left:25%;
+								padding-right:25%;
+								background-color:#ef6f1a; */
+							}
 
 
 
 
-								.project-streetDrm-container2{
-									width:100%;
-									/* padding-left:25%;
-									padding-right:25%;
-									background-color:#ef6f1a; */
-								}
+							.project-streetDrm-container2{
+								width:100%;
+								/* padding-left:25%;
+								padding-right:25%;
+								background-color:#ef6f1a; */
+							}
 
 
 
@@ -1899,7 +1952,7 @@
 							.project-street-conclusion{
 								width:100%;
 								height:400px;
-								padding-top:5%;
+								padding-top:3%;
 								padding-left:20%;
 								padding-right:40%;
 								padding-bottom:15%;
@@ -1918,27 +1971,52 @@
 
 
 
-					.project-introduction-zushi{
-						padding-top:50px;
-						text-align:center;
-						color:white;
-						/* width:100%; */
-						position:relative;
-						top:-1260px;
-						}
+				.project-introduction-zushi{
+					padding-top:50px;
+					text-align:center;
+					color:white;
+					/* width:100%; */
+					position:relative;
+					top:-1260px;
+					}
 
-						.project-sushi-container{
-							width:100%;
-							padding-left:25%;
-							padding-right:25%;
-							background-color:#ef6f1a;
-						}
+
+					.project-introduction-zushi2{
+						/* width:100%; */
+						height:400px;
+						/* padding-top:5%; */
+						padding-left:20%;
+						padding-right:40%;
+						margin-top: -300px;
+
+					}
+
+
+
+					.project-sushi-container{
+						width:100%;
+						padding-left:25%;
+						padding-right:25%;
+						background-color:#ef6f1a;
+					}
 
 
 
 
 					.cta-zushi {
-						 background: white;
+						border: 2px solid #ef6f1a;
+						font-size: .9em;
+						color: white;
+						display:inline-block;
+						font-weight: 700;
+						/*margin-top: 2em;*/
+						padding:.6em 1.6em;
+						text-decoration: none;
+						text-transform: uppercase;
+						border-radius: .5em;
+					}
+
+					.cta-zushi2 {
 						border: 2px solid #ef6f1a;
 						font-size: .9em;
 						color: black;
@@ -1951,23 +2029,24 @@
 						border-radius: .5em;
 					}
 
+
 					.project3-intro img{
 						padding-top:100px;
 					}
 
-					.project-conclusion{
+					.project-zushi-conclusion{
 						width:100%;
 						height:400px;
-						padding-top:10%;
+						padding-top:5%;
 						padding-left:20%;
 						padding-right:40%;
+
 						}
 
 						.wireframe_zushi{
 							display:flex;
 							justify-content:space-evenly;
 							padding-bottom:150px;
-							background-color:#282828;
 						}
 
 						.wireframe-zushi-1{
@@ -1978,6 +2057,41 @@
 					 		width:30%;
 						}
 
+
+						.project-specs-zushi {
+							column-count:2;
+						}
+
+						.project-specs-zushi h4 {
+							 color: red;
+						}
+
+						.project-sushi-before{
+							padding-left: 20%;
+							width:100%;
+							/* padding-top:100px; */
+							padding-left:20%;
+							padding-right:40%;
+						}
+
+						.proposal-zushi {
+							width:100%;
+							text-align:center;
+						}
+
+						.proposal-container-zushi{
+							width:55%;
+							background-color:#e0dfe0;
+							margin:auto;
+							box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 40px 0 rgba(0, 0, 0, 0.19);
+							/* padding-top:100px */
+						}
+
+						.proposal-container-zushi img{
+							/* width:85%; */
+							padding:5%;
+							margin:auto;
+						}
 
 
 	/* ------------------------------------------------
@@ -1992,6 +2106,20 @@
 				position:relative;
 				top:-1230px;
 			}
+
+
+			.project-introduction-spine2{
+				/* width:100%; */
+				height:400px;
+				/* padding-top:5%; */
+				padding-left:20%;
+				padding-right:40%;
+
+			}
+
+
+
+
 
 
 
@@ -2018,26 +2146,21 @@
 
 			.project-spine-before{
 				padding-left: 20%;
+				width:100%;
+				/* padding-top:100px; */
+				padding-left:20%;
+				padding-right:40%;
 			}
 
 
-			/* .project-spine-introduction3{
-				width:100%;
-			  height:600px;
-				padding-top:200px;
-				padding-bottom:200px;
-				padding-left:20%;
-				padding-right:40%;
-				background-color:#1e1c23;
-				color:white;
-				font-size:2em;
-				} */
 
-
-				.project-specs h4 {
-					color: #f47416;
+				.project-specs-spine {
+				column-count:2;
 				}
 
+				.project-specs-spine h4 {
+					color: #f47416;
+				}
 
 
 			.project-spine-typography-container{
@@ -2062,6 +2185,40 @@
 			 .project5-intro img{
 			 	padding-top:100px;
 			 }
+
+			 .cta-spine {
+				 border: 2px solid #df2424;
+				 font-size: .9em;
+				 color: white;
+				 display:inline-block;
+				 font-weight: 700;
+				 padding:.6em 1.6em;
+				 text-decoration: none;
+				 text-transform: uppercase;
+				 border-radius: .5em;
+			 }
+
+			 .cta-spine2 {
+				 border: 2px solid #df2424;
+				 font-size: .9em;
+				 color: black;
+				 display:inline-block;
+				 font-weight: 700;
+				 padding:.6em 1.6em;
+				 text-decoration: none;
+				 text-transform: uppercase;
+				 border-radius: .5em;
+			 }
+
+
+			 .project-conclusion-spine{
+ 				width:100%;
+ 				height:400px;
+ 				padding-top:5%;
+				padding-botom: 10%;
+ 				padding-left:20%;
+ 				padding-right:40%;
+ 				}
 
 
 
