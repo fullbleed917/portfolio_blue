@@ -1747,7 +1747,10 @@
 					padding-right:40%;
 				}
 
-
+				.proposal-law {
+					width:100%;
+					text-align:center;
+				}
 
 
 
@@ -2119,10 +2122,6 @@
 
 
 
-
-
-
-
 			.portfolio-spine {
 				width: 100%;
 				background-color:white;
@@ -2220,7 +2219,11 @@
  				padding-right:40%;
  				}
 
-
+				.proposal-spine {
+					margin-top: 5%;
+					width:100%;
+					text-align:center;
+				}
 
 
 
