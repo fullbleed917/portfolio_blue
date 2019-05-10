@@ -1751,7 +1751,11 @@
 					width:100%;
 					text-align:center;
 				}
-
+				.proposal-container img{
+					/* width:85%; */
+					padding:5%;
+					margin:auto;
+				}
 
 
 
@@ -2225,6 +2229,11 @@
 					text-align:center;
 				}
 
+				.proposal-container img{
+					/* width:85%; */
+					padding:5%;
+					margin:auto;
+				}
 
 
 
