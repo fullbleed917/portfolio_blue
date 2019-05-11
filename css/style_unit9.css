@@ -1965,6 +1965,56 @@
 								padding-bottom:15%;
 								}
 
+								@media only screen and (max-width: 768px) {
+
+
+									.project-introduction-street{
+										/* padding-top:50px; */
+										text-align:center;
+										/* color:white; */
+										/* width:100%; */
+										position:relative;
+										top:-430px;
+										padding-top: 450px
+
+									}
+
+									.project2-intro {
+										height: 650px;
+									}
+
+									.project2-intro img {
+										padding-top: 24%;
+									}
+
+
+
+									.project-introduction-street h1{
+										font-size: 1.5em;
+									}
+
+									.cta-street {
+										color: black;
+									}
+
+								}
+
+								@media only screen and (max-width: 411px) {
+
+									/* .project2-intro{
+										height: 350px;
+									} */
+
+									#project-intro-text{
+										color: black;
+
+								}
+
+
+
+
+
+
 
 
 
