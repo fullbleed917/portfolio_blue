@@ -1999,7 +1999,7 @@
 
 								}
 
-								@media only screen and (max-width: 420px) {
+								@media only screen and (max-width: 568px) {
 
 									/* .project2-intro{
 										height: 350px;
@@ -2008,7 +2008,25 @@
 									#project-intro-text{
 										color: black;
 
+
 								}
+
+							.project-introduction-street3 {
+								margin-top:30%;
+								height:450px;
+							}
+
+							.project-introduction-street3{
+								padding-top:50px;
+								padding-left:10%;
+								padding-right:10%;
+								height:450px;
+							} 
+
+
+
+
+
 
 							}
 
@@ -3152,13 +3170,13 @@
 			height:400px;
 		}
 
-
+/*
 		.project-introduction-street3{
 			padding-top:50px;
 			padding-left:10%;
 			padding-right:10%;
-			height:400px;
-		}
+			height:450px;
+		} */
 
 		.project-sushi-container2 {
 			padding-top:5%;
