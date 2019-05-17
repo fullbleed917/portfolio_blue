@@ -2004,6 +2004,11 @@
 									}
 
 
+									.project-typography-street-container{
+										font-size:1em;
+									}
+
+
 								}
 
 								@media only screen and (max-width: 568px) {
