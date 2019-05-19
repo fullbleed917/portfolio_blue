@@ -2011,7 +2011,7 @@
 
 								}
 
-								@media only screen and (max-width: 568px) {
+	@media only screen and (max-width: 568px) {
 
 									/* .project2-intro{
 										height: 350px;
@@ -2044,6 +2044,32 @@
 
 						}
 
+		@media only screen and (max-width: 1050px) {
+
+			.project-introduction-street{
+				/* padding-top:50px; */
+				text-align:center;
+				/* color:white; */
+				/* width:100%; */
+				position:relative;
+				top:-430px;
+				padding-top: 450px
+
+			}
+
+			.cta-street {
+				color: black;
+			}
+
+			#project-intro-text{
+				color: black;
+
+
+		}
+
+
+
+		}
 
 
 
