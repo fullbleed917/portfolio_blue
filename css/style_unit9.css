@@ -1965,6 +1965,41 @@
 								padding-bottom:15%;
 								}
 
+
+
+						@media only screen and (max-width: 1050px) {
+
+							.project-introduction-street{
+								/* padding-top:50px; */
+								text-align:left;
+								/* color:white; */
+								/* width:100%; */
+								position:relative;
+								top:-5px;
+								/* padding-top: 450px; */
+								padding-left: 20%;
+
+							}
+
+							.cta-street {
+								color: black;
+							}
+
+							#project-intro-text{
+								color: black;
+
+
+						}
+						.project2-intro {
+							height: 1100px;
+						}
+
+					}
+
+
+
+
+
 								@media only screen and (max-width: 768px) {
 
 
@@ -2043,37 +2078,6 @@
 							}
 
 						}
-
-		@media only screen and (max-width: 1050px) {
-
-			.project-introduction-street{
-				/* padding-top:50px; */
-				text-align:center;
-				/* color:white; */
-				/* width:100%; */
-				position:relative;
-				top:-430px;
-				padding-top: 450px
-
-			}
-
-			.cta-street {
-				color: black;
-			}
-
-			#project-intro-text{
-				color: black;
-
-
-		}
-		.project2-intro {
-			height: 1100px;
-		}
-
-
-
-
-		}
 
 
 
