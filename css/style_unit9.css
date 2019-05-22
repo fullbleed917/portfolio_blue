@@ -1967,6 +1967,30 @@
 
 
 
+	@media only screen and (max-width: 1280px) {
+
+							.project-introduction-street{
+								text-align:left;
+								position:relative;
+								top:-10px;
+								/* padding-top: 450px; */
+								padding-left: 20%;
+								}
+
+								.cta-street {
+									color: black;
+								}
+
+								#project-intro-text{
+									color: black;
+
+
+							}
+
+
+
+
+
 						@media only screen and (max-width: 1050px) {
 
 							.project-introduction-street{
@@ -1994,6 +2018,10 @@
 							height: 1100px;
 						}
 
+						.project2-intro img {
+							padding-top: 9%;
+						}
+
 					}
 
 
@@ -2005,7 +2033,7 @@
 
 									.project-introduction-street{
 										/* padding-top:50px; */
-										text-align:center;
+										text-align:left;
 										/* color:white; */
 										/* width:100%; */
 										position:relative;
@@ -2014,12 +2042,18 @@
 
 									}
 
+									.project-introduction2{
+										padding-top: 55%;
+										height: 950px;
+										padding-right: 35%;
+									}
+
 									.project2-intro {
 										height: 650px;
 									}
 
 									.project2-intro img {
-										padding-top: 24%;
+										padding-top: 10%;
 									}
 
 
@@ -2048,9 +2082,9 @@
 
 	@media only screen and (max-width: 568px) {
 
-									/* .project2-intro{
-										height: 350px;
-									} */
+									 .project2-intro{
+										height: 750px;
+									}
 
 									#project-intro-text{
 										color: black;
@@ -2063,7 +2097,7 @@
 								height:450px;
 							}
 
-							.project-introduction-street3{
+							 .project-introduction-street3{
 								padding-top:50px;
 								padding-left:10%;
 								padding-right:10%;
@@ -2074,6 +2108,15 @@
 								width:100%;
 								padding-left: 10%;
 								padding-right: 10%;
+
+							}
+
+							.project2-intro img {
+								padding-top: 24%;
+							}
+
+							.project-introduction2 {
+								height: 575px;
 
 							}
 
