@@ -1666,10 +1666,6 @@
 
 				}
 
-
-
-
-
 				.cta-lawyer {
 		  		/* background: white; */
 					border: 2px solid dodgerblue;
@@ -1683,7 +1679,6 @@
 					text-transform: uppercase;
 					border-radius: .5em;
 					}
-
 
 					.cta-lawyer2 {
 						color:black;
@@ -2324,7 +2319,7 @@
  				width:100%;
  				height:400px;
  				padding-top:5%;
-				padding-botom: 10%;
+				padding-bottom: 10%;
  				padding-left:20%;
  				padding-right:40%;
  				}
@@ -2428,10 +2423,26 @@
 								.project-introduction-spine2{
 									padding-left: 5%;
 									padding-right: 5%;
-								} 
+								}
 
 								.project-spine-before{
 									margin-top: 10%;
+									padding-left: 5%;
+									padding-right: 5%;
+								}
+
+								.project-spine-typography-container {
+									font-size: 1.5em;
+									padding-left: 5%;
+									padding-right: 5%;
+								}
+
+								.project-conclusion-spine {
+									padding-left: 5%;
+									padding-right: 5%;
+									padding-top: 15%;
+									margin-bottom:15%;
+
 								}
 							}
 
