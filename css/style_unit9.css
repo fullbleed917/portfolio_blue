@@ -764,6 +764,7 @@
 
 		.contact_2 {
 			font-size: .5em;
+			padding-bottom: 5%;
 		}
 
 		.cta {
@@ -1608,7 +1609,20 @@
 					z-index:1;
 				}
 
+		@media only screen and (max-width: 1050px) {
 
+					.intro_text1 p {
+						width:200%;
+					}
+		}
+
+
+		@media only screen and (max-width: 768px) {
+
+					.intro_text1 p {
+						width:100%;
+					}
+		}
 
 
 
@@ -2784,9 +2798,13 @@
       							  projects END
 	------------------------------------------------------*/
 
+/*
+	@media only screen and (max-width: 1280px) {
 
-
-
+	.hero {
+		position: static;
+	}
+} */
 
 
 
@@ -2898,6 +2916,9 @@
 		}
 
 		@media only screen and (max-width: 1050px) {
+
+
+
 		.header {
 			background-color: dodgerblue ;
 		}
@@ -3507,10 +3528,10 @@
 			padding-right:5%;
 		}
 
-		.cta{
+		/* .cta{
 			display:none;
 
-		}
+		} */
 
 		.description1{
 			top:12%;
