@@ -1611,8 +1611,30 @@
 
 		@media only screen and (max-width: 1050px) {
 
+
+					.hero {
+						position: static;
+					}
+
+					.bounce{
+						display: none;
+					}
+
 					.intro_text1 p {
-						width:200%;
+						width:100%;
+					}
+
+					.intro_text2 {
+						padding-right: 10%;
+						padding-left: 12%;
+					}
+
+
+					.intro_text2 p {
+						width:250%;
+						position: relative;
+						text-align: left;
+						right: 500px;
 					}
 		}
 
