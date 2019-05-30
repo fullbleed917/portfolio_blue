@@ -1614,10 +1614,30 @@
 
 					.hero {
 						position: static;
+						overflow: hidden;
 					}
 
-					.bounce{
+					#desktop-image {
 						display: none;
+					}
+
+					.container {
+						padding-top: 0;
+					}
+
+				 .bounce{
+						display: none;
+					}
+
+
+					.hero_text h1 {
+						font-size: 7em;
+						color: white;
+					}
+
+					.hero_text h2 {
+						font-size: 2em;
+						color: white;
 					}
 
 					.intro_text1 p {
@@ -2993,15 +3013,15 @@
 			transform: translate(0);
 		}
 
-		.hero_text h1 {
+		/* .hero_text h1 {
 			font-size: 2.2em;
 			color:darkslateblue;
-		}
+		} */
 
-		.hero_text h2 {
+		/* .hero_text h2 {
 			font-size: 1.5em;
 			color:darkslateblue;
-		}
+		} */
 
 		.portfolio p {
 			font-weight: 400;
