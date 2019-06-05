@@ -1611,50 +1611,8 @@
 
 		@media only screen and (max-width: 1050px) {
 
-
-					.hero {
-						position: static;
-						overflow: hidden;
-					}
-
-					#desktop-image {
-						display: none;
-					}
-
-					.container {
-						padding-top: 0;
-					}
-
-				 .bounce{
-						display: none;
-					}
-
-
-					.hero_text h1 {
-						font-size: 7em;
-						color: white;
-					}
-
-					.hero_text h2 {
-						font-size: 2em;
-						color: white;
-					}
-
 					.intro_text1 p {
-						width:100%;
-					}
-
-					.intro_text2 {
-						padding-right: 10%;
-						padding-left: 12%;
-					}
-
-
-					.intro_text2 p {
-						width:250%;
-						position: relative;
-						text-align: left;
-						right: 500px;
+						width:200%;
 					}
 		}
 
@@ -2960,7 +2918,6 @@
 		@media only screen and (max-width: 1050px) {
 
 
-
 		.header {
 			background-color: dodgerblue ;
 		}
@@ -3013,15 +2970,15 @@
 			transform: translate(0);
 		}
 
-		/* .hero_text h1 {
+		.hero_text h1 {
 			font-size: 2.2em;
 			color:darkslateblue;
-		} */
+		}
 
-		/* .hero_text h2 {
+		.hero_text h2 {
 			font-size: 1.5em;
 			color:darkslateblue;
-		} */
+		}
 
 		.portfolio p {
 			font-weight: 400;
@@ -3089,6 +3046,40 @@
 		.gallery{
 			padding:1em;
 		}
+
+
+		
+				.parralax {
+					height: 1350px !important;
+				}
+
+				.bounce {
+					 display: none;
+				 }
+
+				 .hero_text {
+					 position: relative;
+					 top: 0;
+					 left: 0
+					 transform: translate (0);
+					 padding: 20px;
+					 width: 75%;
+				 }
+				.hero_text h1 {
+					font-size: 5.2em;
+				}
+
+				.hero_text h2 {
+					font-size: 3em;
+				}
+
+
+
+
+
+
+
+
 	}
 
 		@media only screen and (max-width: 768px) {
