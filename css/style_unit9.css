@@ -3089,15 +3089,22 @@
 
 
 			.thumb1a {
-				top: 19%;
+				top: 15%;
 				width: 48%
 			}
+
+			.description2a {
+				top:35%;
+
+			}
+
+
 			.description2 h2 {
 				display: none;
 			}
 
 			.thumb1 {
-				top: 21%;
+				top: 20%;
 				width: 47%;
 
 			}
@@ -3109,11 +3116,16 @@
 				top: 36%
 			}
 
+			.description3 {
+				top:18%
+			}
+
 			.description3 h2 {
 				display: none;
 			}
+
 			.description3a {
-				top:45%
+				top:35%
 			}
 
 	}
