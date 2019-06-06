@@ -3098,6 +3098,9 @@
 
 			}
 
+			.description2 {
+				width: 37%;
+			}
 
 			.description2 h2 {
 				display: none;
