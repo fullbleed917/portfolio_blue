@@ -3088,8 +3088,33 @@
 			}
 
 
+			.thumb1a {
+				top: 19%;
+				width: 48%
+			}
+			.description2 h2 {
+				display: none;
+			}
 
+			.thumb1 {
+				top: 21%;
+				width: 47%;
 
+			}
+			.description1 h2 {
+				display: none;
+			}
+
+			.description1a {
+				top: 36%
+			}
+
+			.description3 h2 {
+				display: none;
+			}
+			.description3a {
+				top:45%
+			}
 
 	}
 
