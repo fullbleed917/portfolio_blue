@@ -2921,7 +2921,7 @@
 				}
 
 				.parralax {
-					height: 600px !important;
+					height: 650px !important;
 				}
 
 				.bounce {
@@ -2929,8 +2929,28 @@
 				 }
 
 				 .intro_image2 img {
-					 padding-top: 35%;
+					 padding-top: 5%;
 				 }
+
+				.intro_text2 {
+					padding-top: 5%;
+				}
+
+				.intro_text2 p {
+						position: relative;
+						right: 110%;
+						width: 200%;
+						padding-top: 20%;
+					}
+
+
+				.thumb1a {
+					padding-top: 12%;
+				}
+
+				.thumb1 {
+					top: 18%;
+				}
 
 
 			}
