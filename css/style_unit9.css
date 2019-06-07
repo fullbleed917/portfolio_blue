@@ -525,6 +525,12 @@
 			padding-top:100px;
 			}
 
+			.skills-container {
+				display: inline-flex;
+				justify-content: space-around;
+				width: 100%;
+			}
+
 		.intro_text3{
 			padding-left:20%;
 			padding-right:20%;
@@ -599,7 +605,7 @@
 			text-align: left;
 			font-size: 1.5em;
 			color: #060b20;
-			padding-top:200px;
+			/* padding-top:200px; */
 		}
 
 		.closepanel5 img {
@@ -616,11 +622,9 @@
 		}
 
 		.skills51 {
-			float: left;
 			width: 30%;
-			margin-left:100px;
-			padding-left:10px;
-			padding-right:10px;
+			padding: 2%;
+			background-color: #d0d0d0;
 		}
 
 		.skills51 h2{
@@ -636,21 +640,19 @@
 		}
 
 		.skills52 {
-			float: left;
 			width: 30%;
-			padding-left:10px;
-			padding-right:10px;
+			padding: 2%;
+			background-color: #d0d0d0;
 			}
 
 		.skills53 {
-			float: left;
 			width: 30%;
-			padding-left:10px;
-			padding-right:10px;
+			padding: 2%;
+			background-color: #d0d0d0;
 		}
 
 		.button {
-			border-radius: 12px;
+		border-radius: 12px;
 		}
 
 		.button {
