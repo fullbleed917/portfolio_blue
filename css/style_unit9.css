@@ -2908,10 +2908,33 @@
 			width:100%;
 			margin:auto;
 			padding-top:100px;
+			}
 
 		}
 
-		}
+
+
+			@media only screen and (max-width: 1370px) {
+
+				.hero_text h1 {
+					font-size: 5em;
+				}
+
+				.parralax {
+					height: 1200px !important;
+				}
+
+				.bounce {
+					 display: none;
+				 }
+
+				 .intro_image2 img {
+					 padding-top: 35%;
+				 }
+
+
+			}
+
 
 		@media only screen and (max-width: 1050px) {
 
