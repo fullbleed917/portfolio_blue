@@ -3654,7 +3654,7 @@
 			}
 
 			.hero_text h2 {
-				font-size: 1.8em;
+				font-size: 1.6em;
 			}
 
 		  .container {
@@ -3864,9 +3864,6 @@
 
 
 
-
-
-
 		.project-introduction4 {
 			padding-left:10%;
 			padding-right:10%;
@@ -3889,6 +3886,22 @@
 
 		}
 	}
+
+		@media screen and (max-width: 375px) {
+
+			.thumb1a {
+				top: 35%;
+			}
+
+			.thumb1 {
+				padding-top: 15%;
+			}
+
+
+
+		}
+
+
 
 /*
 		@media only screen and (max-width: 421px) {
