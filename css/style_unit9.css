@@ -2952,6 +2952,9 @@
 					top: 18%;
 				}
 
+				.closepanel3 {
+					z-index: 9;
+				}
 
 			}
 
