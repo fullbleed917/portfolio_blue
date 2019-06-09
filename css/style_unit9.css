@@ -3300,6 +3300,14 @@
 	    padding: 20px;
 			}
 
+			.hero_text h1 {
+				font-size: 4.2em;
+			}
+
+
+			.hero_text h2 {
+				font-size: 2.2em;
+			}
 
 		.contactpic{
 			padding-top:100px;
@@ -3314,6 +3322,10 @@
 			right:14%;
 		}
 
+		.description1 h2 {
+			display: block;
+		}
+
 		.description1a{
 			display:none;
 		}
@@ -3324,6 +3336,11 @@
 			padding-bottom: 340px;
 		}
 
+		.thumb1 {
+			top: 25%;
+		}
+
+
 
 		.description2{
 			text-align: center;
@@ -3331,6 +3348,15 @@
 			top:3%;
 			right:14%;
 		}
+
+		.description2 h2{
+			display: block;
+		}
+
+		.thumb1a {
+			top: 15%;
+		}
+
 
 		.description2a{
 			display:none;
@@ -3355,6 +3381,9 @@
 			right:14%; */
 		}
 
+		.description3 h2 {
+			display: block;
+		}
 
 		.backdrop2{
 			width:100%;
@@ -3481,7 +3510,26 @@
 			padding-right:0;
 		}
 
+		.intro_text2 h1 {
+			width: 100%;
+		}
+
+		.intro_text2 p {
+			position: static;
+			width: 100%;
+
+		}
+
+
+
+
+
+
 /* skills start here */
+
+		.skills-container {
+			display: block;
+		}
 
 
 		.closepanel5 {
@@ -3505,23 +3553,25 @@
 		}
 
 		.skills51 {
-			float:none;
+			/* float:none; */
 			width: 100%;
 			margin-left:0;
 			padding-left:5%;
 			padding-right:5%;
+			margin-bottom: 5%;
 		}
 
 
 		.skills52 {
-			float:none;
+			/* float:none; */
 			width: 100%;
 			padding-left:5%;
 			padding-right:5%;
+			margin-bottom: 5%;
 			}
 
 		.skills53 {
-			float: none;
+			/* float: none; */
 			width: 100%;
 			padding-left:5%;
 			padding-right:5%;
