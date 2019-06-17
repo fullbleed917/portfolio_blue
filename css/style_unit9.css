@@ -966,8 +966,8 @@
 		.desc {
 			clear:both;
 		  padding: 15px;
-	    text-align: left;
-			font-size:2em;
+	    text-align: center;
+			font-size:1.5em;
 		}
 
 		.gallery {
@@ -978,7 +978,7 @@
 		}
 
 		.gallery img {
-		   width: 550px;
+		   width: 450px;
 	     height: auto;
 			 padding-bottom: 50px;
 		   float:left;
@@ -1408,7 +1408,7 @@
 
 
 	/*------------------------------------------------------
-								knight law - project1 page
+				knight law - project1 page
 	------------------------------------------------------- */
 
 	/* .project1-intro {
